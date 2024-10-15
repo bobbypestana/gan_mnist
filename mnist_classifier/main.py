@@ -49,7 +49,7 @@ def train(args, model, device, train_loader, optimizer, epoch):
             if args.dry_run:
                 break
 
-            print(data.shape)
+            # print(data.shape)
 
 
 def test(model, device, test_loader):
